@@ -8,7 +8,6 @@ body{
 
 div.home-container { 
 	background: linear-gradient(rgba(0 ,0, 0, 0.3), rgba(0,0,0,0.6)), url(images/jazz2.jpg) center center fixed;
-
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
@@ -39,14 +38,15 @@ img {
 }
 
 header {
+	position:relative;
 	display: grid;
 	grid-template-columns: 60% auto;
 	background: rgb(190, 190, 190);
 	padding: 2em 1em;
 	border-style: solid;
-	border-radius: 25px;
-	border-width: 10px;
-	border-color: rgb(145, 36, 91);
+	border-radius: 20px;
+	border-width: 8px;
+	border-color: rgb(145, 36, 63);
 	}
 
 h1 {
@@ -102,7 +102,8 @@ main.menu ul li {
 }	
 
 p {
-	margin: 0em 0em 1em;
+	margin: auto;
+	padding-bottom: 1em;
 	}
 	
 
@@ -114,7 +115,7 @@ p.description {
 p.price {
 	grid-row: 1/2;
 	grid-column: 2/3;
-	color: rgb(145, 36, 91);
+	color: rgb(145, 36, 63);
 	font-weight: bolder;
 	text-align: left;
 	margin: 0em;
@@ -130,6 +131,10 @@ nav ul li a {
 	color: rgb(0, 0, 0);
 	background-color: rgb(190, 190, 190);
 	padding: 0.2em 0.2em 0.2em;
+	border-style: solid;
+	border-color:rgb(0,0,0);
+	border-radius: 10px;
+	border-width: 2.1px;
 	}
 
 nav ul li.selected a { 
@@ -179,8 +184,22 @@ article{
 
 @media screen and (min-width: 60em) {
 
+
+
+	h2,h3{
+	text-align: center;
+}
+
+
+
+	
+	header{
+		max-width: 71em;
+		margin:auto;
+	}
+
 	body{
-		background-color:rgb(255,255,255);
+		background-color:rgba(145, 36, 63, 0.513);
 	}
 
 	figure{
@@ -188,8 +207,14 @@ article{
 		margin: auto;
 	}
 
-	div.container, div.home-container {
-		max-width: 70em;
+	div.contcontainer{
+		display:grid;
+		grid-template-columns: 50% auto;
+		padding: 2em;
+	}
+
+	div.container, div.home-container{
+		max-width: 76em;
 		margin: auto;
 		background-color: rgb(255, 255, 255);
 	}
@@ -201,11 +226,6 @@ article{
 
 	}
 
-	div.contcontainer{
-		display:grid;
-		grid-template-columns: 50% auto;
-		padding: 2em;
-	}
 
 	nav li {
 		display:inline;
@@ -218,4 +238,5 @@ article{
 		}
 
 }
+
 
