@@ -1,0 +1,77 @@
+/*CSS document*/
+
+div.container{
+    max-width: 28em;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(66,198,221), rgb(255, 255, 255));
+    font-family: "superblue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 28em;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(5,55,73);
+  }
+  
+  li {
+    float: left;
+    border-radius: 3px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(183, 221, 235);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+
+  li a :hover {
+    color:black;
+  }
+
+nav ul{
+    list-style-type: none;
+    border-radius: 90px;
+}
+
+a {
+    display: block;
+    color: rgb(5,55,73);
+}
+
+nav a:hover,select {
+    background-color:rgb(2, 20, 27);
+}
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+h1 img {
+    width: 8em;  
+}
+
+img {
+    width: 100%; 
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
