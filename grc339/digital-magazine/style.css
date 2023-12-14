@@ -21,13 +21,13 @@ body {
 figcaption{
     font-family: superblue, sans-serif;
     font-style: italic;
-    font-size:small
+    font-size:small;
 }
 
 h2,h3{
     font-family: dogma-bold, sans-serif;
     font-size: 1.5em;
-    letter-spacing: 1px;
+    letter-spacing: 0.05rem;
     color:#0B3948
 }
 
@@ -51,9 +51,8 @@ nav ul li a {
     display: block;
     color:#4A7C59;
     text-align: center;
-    padding: 10px 10px;
+    padding: 0.5em 0.5em;
     text-decoration: none;
-    
   }
 
 nav ul{
@@ -62,17 +61,15 @@ nav ul{
 
 nav a {
     display: block;
-    color: rgb(5,55,73);
+    color:#0B3948;
 }
 
 nav a:hover,select {
     background-color:#4A7C59;
-    color:rgb(255,255,255);
-
+    color:#ffffff;
 }
 
 div.container {
-    /* background-color:rgb(208, 249, 255); */
     max-width: 100em;
     margin: 0 auto;
     padding: 1em 1em 0em 1em;
@@ -89,12 +86,10 @@ section.mainstory figure {
 
 h1 img {
     width: 8em; 
-    /* maybe 4em  */
 }
 
 img {
     width: 100%; 
-    /* border-radius: 10px; */
 }
 
 
@@ -136,7 +131,6 @@ main.gal {
 }
 
 main.gal figure{
-    border-radius: 0px;
     margin: 0;
     width: calc(100%-2em);
     position: absolute;
@@ -206,18 +200,16 @@ nav.gal {
       }
 
 
-
 @media screen and (prefers-color-scheme: dark) {
-
 
     section.secondary, section.tertiary, section.mainstory {
         border-color:#68b0ab;
-      }
+    }
     body{
-    background-color: #0B3948;
+        background-color: #0B3948;
     }
    main.gal figcaption{
-    color: #68b0ab;
+        color: #68b0ab;
    }
     a{
         color: white;
@@ -233,14 +225,12 @@ nav.gal {
       }
 
       nav ul li a {
-        color:#68b0ab;
-        
+        color:#68b0ab; 
       }
 
       nav a:hover,select {
         background-color:#c2e812;
         color:#68b0ab;
-    
     }
    
     h1 {  
@@ -252,7 +242,7 @@ nav.gal {
 
     h1 img {  
         opacity: 0;  
-        }  
+    }  
 
     h2{
         color:#68b0ab
@@ -292,12 +282,9 @@ nav.gal {
         width: 100%;
     }
 
-
-section.secondary figure img{
-    object-fit: cover;
-
-}
-
+    section.secondary figure img{
+        object-fit: cover;
+    }
 
     div.container{
         display: grid;
@@ -320,7 +307,6 @@ section.secondary figure img{
         grid-column: 2/3;
     }
 
-
     aside{
         grid-column: 2/4;
     }
@@ -335,7 +321,7 @@ section.secondary figure img{
 
     section.aside{
         border-style:solid;
-        border-color:rgb(5,55,73);
+        border-color:#0B3948;
         border-width:5px;
     }
 
@@ -344,8 +330,7 @@ section.secondary figure img{
         /* grow but not shrink start with 10em */
         display:flex;
         flex-direction: column;
-        }
-
+    }
 
     section.mainstory a figure{
         flex: 1 0 10em;
@@ -363,15 +348,7 @@ section.secondary figure img{
     section.mainstory a figure img{
         height: 95%;
         object-fit: cover;
+    }
 
-        }
-
-    
-
-        /*only apply to dark AND greater than 60em*/
-        @media screen and (prefers-color-scheme: dark) {
-            
-
-        }
 }    
 
