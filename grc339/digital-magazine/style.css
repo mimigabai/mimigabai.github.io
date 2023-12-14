@@ -216,8 +216,7 @@ nav.gal {
     }
 
     a:hover{
-        color:#ffffff;
-/*         color:#68b0ab; */
+        color:#68b0ab;
     }
    
     nav ul {
@@ -231,8 +230,7 @@ nav.gal {
 
       nav a:hover,select {
         background-color:#c2e812;
-/*         color:#68b0ab; */
-          color:#ffffff;
+        color:#68b0ab;
     }
    
     h1 {  
@@ -353,4 +351,6 @@ nav.gal {
     }
 
 }    
+
+
 
