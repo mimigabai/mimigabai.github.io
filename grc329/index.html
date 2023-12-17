@@ -16,12 +16,26 @@
         <body>
             <header>
 <h1>Sorry! Reimagined: A Case Study on Tangible Interactive Product Development</h1>
+
+<nav>
+    <a href="#introduction">Introduction</a>
+    <a href="#market-research">Market Research</a>
+    <a href="#ideas">Idea Generation</a>
+    <a href="#design-process">Design Process</a>
+    <a href="#prototyping">Prototyping</a>
+    <a href="#manufacturing-considerations">Manufacturing Considerations</a>
+    <a href="#hifi">Move towards Higher Fidelity</a>
+    <a href="#reflection">Reflection</a>
+</nav>
+
 </header>
 <section>
 <h3>Fall Quarter 2023</h3>
 <h3>Term Project for GrC 329: Tanglible Interactive Product Development</h3>
-<h3>Dr. Rong, California Polytechnic State University, San luis Obispo</h3>
+<h3>Dr. Rong, California Polytechnic State University, San Luis Obispo</h3>
 </section>
+
+<a id="introduction">
 <section>
 <h3>Introduction</h3>
 
@@ -36,7 +50,8 @@
     <figcaption>Sorry! board game, Courtesy of Hasbro.com</figcaption>
 </figure>
 </section>
-
+</a>
+<a id="market-research">
 <section>
     <h3>Market Research</h3>
     
@@ -44,42 +59,75 @@
     <p>The global board game market was worth around $7.2 billion in 2017. The board game market is expected to be valued at $12 billion in 2023. (Source: https://techjury.net/blog/board-game-statistics/)</p>
     
     <h4>Competetive Analysis</h4>
-    <p>Currently, there are a few board games on the market with interactive electronic features including Hasbro's Monopoly Electric Banking and Operation</p>
-    
-    <h4>User Persona</h4>
-    <p>Ava, 8 years old, Likes playing with her iPad. Enjoys games that are: Colorful, memorable, engaging, and competetive.</p>
-    
+    <p>Currently, there are a few board games on the market with interactive electronic features including Hasbro's Monopoly Electric Banking and Operation.</p>
+
     <h4>Sorry! Target Audience Unmet Needs</h4>
     <p>Game is silent, does not light up and has no interaction compared to online games popular with kids today.</p>
     
-    <h4>Problem Statement</h4>
-    <p>A kid needs an especially interactive board game to keep them engaged in order to spend less time on screens. </p>
 </section>
-
+</a>
+<a id="ideas">
 <section>
     <h3>Idea Generation</h3>
     <p>To start, we came up with three concepts for adding electronic sensors and actuators to the game to make it more interactive.</p>
+    <figure>
+        <img src="concept1.png">
+    </figure>
     <h4>Concept 1</h4>
     <p>Add a button to play fun sounds from speaker when pressed, add another speaker for sounds played when pawns arrive home, add an RGB LED that turns on by photosensor when box is closed.</p>
+    <figure>
+        <img src="concept2.png">
+    </figure>
     <h4>Concept 2</h4>
     <p>Add LEDs turned on by a sensor each time a pawn arrives home, when all four have arrived servo motor spins sorry logo in center of board, button to change color of RGB LED indicating player turn.</p>
+    <figure>
+        <img src="concept3.png">
+    </figure>
     <h4>Concept 3</h4>
     <p>Similar to above, add LEDs turned on by sensor each time a pawn arrives home, when all four have arrived servo motor spins sorry logo in center of board, have a button to play fun sounds from speaker </p>
-
 </section>
-
+</a>
+<a id="design-process">
 <section>
     <h3>Design Process</h3>
-    <p>Problem Identification: Describe the user and problem statement for the project.</p>
-    <p>Explain the research conducted to understand user needs and requirements.</p>
-    <p>Ideation and Concept Development:</p>
-    <p>Protyping and Iteration</p>
-    <p>User testing and feedback</p>
-</section>
+    <p>In the development of our product, we prioritized a user-centered design process, ensuring that every stage was guided by a deep understanding of our users' needs and preferences. By conducting extensive user research, iterative testing, and incorporating user feedback, we were able to craft a product that not only meets functional requirements but also provides an intuitive and satisfying experience for our target audience.</p>
+    
+    <figure class="user">
+        <img src="user.jpeg" alt="young girl smiling in front of blue wall">
+        <figcaption>Photo from Adobe Stock</figcaption>
+    </figure>
+    <h4>User Persona</h4>
+    <p>Ava, 8 years old, Likes playing with her iPad. Enjoys games that are: Colorful, memorable, engaging, and competetive.</p>
 
+    <h4>Problem Statement</h4>
+    <p>A kid needs an especially interactive board game to keep them engaged in order to spend less time on screens. </p>
+    
+    
+    <h4>Ideation and Concept Development</h4>
+    <p>We started by coming up with three different concepts of how we could add features and functionality to the existing game on sorry.</p>
+
+        <a class="link" href="#ideas">See more about Ideas</a>
+
+    <h4>Protyping and Iteration</h4>
+    <p>During the prototyping phase we started with a lofidelity prototype using TinkerCad to set up our circuit and simulate some of the functions.
+    <p>Next, we made a mid fidelity prototype using a card board box and a physical arduino.</p>
+    </p>
+
+    <a class="link" href="#prototyping">See more about Prototyping</a>
+
+    <h4>User testing and feedback</h4>
+<p>In our lab environment, it was a bit difficult to collect feedback from users. However, we spoke with our classmates to get feedback and ideas during the phases of the development of the product. First, in the idea generation phase we ask our desk-mates which features they felt were the most exciting. THe other lab groups agreed that having the speaker to play fun sounds was important. With this feedback, we chose to move on to a final product with this feature.</p>
+</section>
+</a>
+<a id="prototyping">
 <section>
     <h3>Technical Implementation and Prototyping</h3>
-    <p>Low-Fidelity and Mid-Fidelity Prototypes</p>
+    <h4>Low-Fidelity</h4>
+    <figure>
+        <img src="tinker.png">
+    </figure>
+    <a class="link" href="https://www.tinkercad.com/things/aLPS7SMfrkN-term-project-sorry-reimagined-/editel?returnTo=%2Fdashboard%3Fcollection%3Ddesigns&sharecode=U719Z12OjgU_pTevD8Z0RWWtitkT7rBubdkzsgVicns&sharecode=U719Z12OjgU_pTevD8Z0RWWtitkT7rBubdkzsgVicns">Link to TinkerCad</a>
+    <h4>Mid-Fidelity</h4>
     <p>Demonstration of the Prototype</p>
     <iframe
   id="inlineFrameExample"
@@ -88,32 +136,64 @@
   height="700"
   src="https://flip.com/groups/15032740/topics/39576489/responses/447606735">
 </iframe>
-    <p>Reflect on the effectiveness of the mid-fidelity prototype and any improvements identified (for example, in planning, execution, and skills)</p>
+<figcaption>Login to FlipGrip to view video demo</figcaption>
+    <p>The Mid-Fidelity prototype was a good way to create a proof of concept, and demonstrate that we can use a processor and some actuators to achieve the interactions we wanted to add to the game. It was a bit clunky and complicated, but it was nice to bring the idea to life. If we had more time it could have improved by printing the design of the board game instead of drawing it.</p>
 </section>
 
+<section>
+    <figure>
+        <img src="1.png" alt="young girl smiling in front of blue wall">
+        <figcaption>Wiring of arduino and breadboard for mid fidelity prototype.</figcaption>
+    </figure>
+    <figure>
+        <img src="2.png" alt="young girl smiling in front of blue wall">
+        <figcaption>Close up of how the LED and push button were wired through the interface (cardboard board game).</figcaption>
+    </figure>
+    <figure>
+        <img src="3.png" alt="young girl smiling in front of blue wall">
+        <figcaption>Front of prototype. Note the call to action for the user to press the button.</figcaption>
+    </figure>
+    <figure>
+        <img src="4.png" alt="young girl smiling in front of blue wall">
+        <figcaption>Prototype along with the wiring all set up.</figcaption>
+    </figure>
+</section>
+</a>
+
+<a id="hifi">
 <section>
     <h3>Move towards Higher Fidelity</h3>
-    <p>Discuss the process, tools, and materials needed for moving towards higher fidelity prototyping.</p>
-    <p>What are the possible tests needed to examine the prototype before moving into the final product design for mass production?</p>
+    <p>In our early prototype, the goal was to "do just enough". Our prototype was very low risk and low cost and allowed us to see that our product had potential. Our goal for our next prototype would be for it to be ready for users to intereact with so that we can conduct testing. This would include consolidating the arduino, breadboard and wiring (it can be placed in a box underneath the board), and making the board printed so that it is cleaner and ready for a user to interact with.</p>
+    <p>For our user testing phase, it would be important to find out how easy it was for users to learn and understand the features we added to the game. Additionally, it would be helpful to find out how much users value and appreciate the new interactions.</p>
 </section>
+</a>
 
+<a id="manufacturing-considerations">
 <section>
     <h3>Design for Manufacturability</h3>
-    <p>Explain any adjustments or design optimizations required for efficient mass production.</p>
-    <p>Address manufacturing processes for both physical interfaces and functional components (printing, hybrid, or traditional electronics) for the imaginary final product.</p>
+    <figure>
+        <img src="custom module.jpeg" alt="young girl smiling in front of blue wall">
+        <figcaption>Example of a custom module from henzhenlexing.en.made-in-china.com</figcaption>
+    </figure>
+    <p>When manufacturing the product to market, we will need to move towards producing customized modules. This will allow for modules that are thinner and more precise to our needs.</p>
+    <p>Once it is established which custom components need to be made, they can be produced using screen printing as part of the production for the processor and some of the traces. There will also need to be connections to connect the components to form a module (batteries, actuators, processor need to be connected). This can be done with various flat connectors to help keep things together and flat.</p>
+    <figure>
+        <img src="hifi.jpg" alt="young girl smiling in front of blue wall">
+        <figcaption>Sketch of clean final prototype with hidden electronics.</figcaption>
+    </figure>
 </section>
-
+</a>
+<a id="reflection">
 <section>
     <h3>Reflection</h3>
-    <p>Personal Learning Journey:
-    Reflect on personal growth, skills acquired, lessons learned, and possible future aspirations throughout the project.</p>
-    <p>Transferable Skills:
-        Highlight transferable skills gained through the project, such as project management, problem-solving, teamwork, or adaptability.</p>
-    <p>Conclusion:
-        Summarize the key takeaways and personal reflections from the project.</p>
+    <h4>Personal Learning Journey</h4>
+    <p>Throughout the development of the "Sorry! Reimagined", my personal growth has been marked by a journey encompassing user-centered design, technical implementation, and project management.</p>
+    <h4>Transferable Skills</h4>
+    <p>In the course of this project, skills in research, rapid-prototyping, programming, wiring, problem-solving, user-centered design, and teamwork were developed. These are skills valauble both in product design and in other disciplines.</p>
+    <h4>Conclusion</h4>
+    <p>The "Sorry! Reimagined" case study was a comprehensive learning experience, and delved into design thinking, technical implementation, and teamwork. It helped develop skills that go beyond interactive product development. I'm eager to apply these lessons in future projects, embracing an iterative and user-centric approach to design.</p>
 </section>
-
-
+</a>
         <footer>
             <p>&copy Miriam Gabai 2023</p>
         </footer>
