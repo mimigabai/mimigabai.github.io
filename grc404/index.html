@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://use.typekit.net/cai3ebo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Data Portfolio</title>
     <style>
+        .explain{
+            margin-left:60px;
+        }
         .intro{
+            font-weight: 400;
             margin:5rem;
             text-align: left;
+            font-weight:normal;
 
         }
         body, html {
             margin:0;
             padding:0;
-            font-family: Arial, sans-serif;
+            font-family: "hatch-sans", sans-serif;
             height: 100%;
         }
         .section {
@@ -45,6 +51,7 @@
             width: 90%; /* Adjusted width for mobile */
         }
         .portfolio-item {
+            margin:12px;
             position: relative;
         }
         .portfolio-item img {
@@ -52,19 +59,22 @@
             border-radius: 50%;
         }
         .portfolio-item .caption {
-            position: absolute;
+            font-weight: 700;
+            /* position: absolute; */
             bottom: 0;
             left: 50%;
-            transform: translateX(-50%);
-            background-color: rgba(0, 0, 0, 0.5);
+            /* transform: translateX(-50%); */
+            background:linear-gradient(to bottom, #6f22ff, #969dff);
             padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 14px;
+            border-radius: 20px;
+            font-size: 20px;
         }
         .portfolio-item .description {
             margin-top: 10px;
             text-align: left;
-            color: black; /* Added this line */
+            background: linear-gradient(to bottom, #6f22ff, #969dff);
+            padding: 5px 10px;
+            border-radius: 20px;
             padding-bottom: 30px;
         }
 
@@ -79,23 +89,25 @@
     </style>
 </head>
 <body>
+
     <section class="section gradient-bg">
         <div class="intro"><h1>Greetings 👋 </h1>
-        <h1>Here you will find projects completed for the course GrC404: Data Management and Visualization at Cal Poly in Winter of 2024👩‍💻📈💫</h1>
-        <h1>Feel free to browse through my projects and engage with the data, hope you enjoy!✨</h1>
-        <h1>- Miriam Gabai, Graphic Communication Student</h1>
+        <p>Here you will find projects completed for the course GrC404: Data Management and Visualization at Cal Poly in Winter of 2024👩‍💻📈💫<p>
+        <p>Feel free to browse through my projects and engage with the data, hope you enjoy!✨<p>
+        <p>- Miriam Gabai, Graphic Communication Student<p>
     </div>
         <a href="#portfolio" class="scroll-button">
             <img src="arrow.png" alt="Explore Arrow" style="width: 50px;">
             <p>Click here to explore my work</p>
         </a>
     </section>
-
+    <p class="explain">  Click on the image to download project files.</p>
     <section id="portfolio" class="section">
+
         <div class="portfolio-grid">
             <div class="portfolio-item">
-                <a href="image1.png"><img src="image1.png" alt="Portfolio Item 1"></a>
-                <div class="caption">Project 1</div>
+                <a href="https://cpslo-my.sharepoint.com/:u:/r/personal/mmgabai_calpoly_edu/Documents/GrC%20404%20Portfolio%20Uploads/Excel%20Labs/404%20lab1%20cleaning.xlsx.zip?csf=1&web=1&e=qsYAgH"><img src="project1.png" alt="Portfolio Item 1"></a>
+                <div class="caption">Cleaning Large Datasets</div>
                 <div class="description">
                     <ul>
                         <li>Description Point 1</li>
@@ -105,8 +117,8 @@
                 </div>
             </div>
             <div class="portfolio-item">
-                <a href="image1.png"><img src="image1.png" alt="Portfolio Item 1"></a>
-                <div class="caption">Project 1</div>
+                <a href="https://cpslo-my.sharepoint.com/:u:/g/personal/mmgabai_calpoly_edu/ETOmOgXfU1ZJvvzXmrkjCcwB7VuLLS0ztMxi4zD0wh78Nw?e=v9hzpc"><img src="project2.png" alt="Portfolio Item 1"></a>
+                <div class="caption">Basic Cost Estimating</div>
                 <div class="description">
                     <ul>
                         <li>Description Point 1</li>
@@ -116,8 +128,8 @@
                 </div>
             </div>
             <div class="portfolio-item">
-                <a href="image1.png"><img src="image1.png" alt="Portfolio Item 1"></a>
-                <div class="caption">Project 3</div>
+                <a href="https://cpslo-my.sharepoint.com/:u:/g/personal/mmgabai_calpoly_edu/EWfbLYnRzGVAlWXGBleYnh8BtPAhVXjxan4ZVZZfLbjmNQ?e=3YvqOL"><img src="project3.png" alt="Portfolio Item 1"></a>
+                <div class="caption">Budgeting with Lookup Tables</div>
                 <div class="description">
                     <ul>
                         <li>Description Point 1</li>
@@ -127,8 +139,8 @@
                 </div>
             </div>
             <div class="portfolio-item">
-                <a href="image1.png"><img src="image1.png" alt="Portfolio Item 1"></a>
-                <div class="caption">Project 1</div>
+                <a href="https://cpslo-my.sharepoint.com/:u:/g/personal/mmgabai_calpoly_edu/EZPXaR8AziFCgm5rx9XYghoBdldQ3wCFRuy96fxLhM_-yQ?e=9heuF1"><img src="project4.png" alt="Portfolio Item 1"></a>
+                <div class="caption">Estimating Book Design Costs</div>
             </div>
             <div class="portfolio-item">
                 <a href="image1.png"><img src="image1.png" alt="Portfolio Item 1"></a>
